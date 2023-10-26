@@ -81,6 +81,8 @@ header .logo img {
     align-items: center;
 }
 
+
+
 .button {
     height: 50px;
     width: 200px;
@@ -132,12 +134,87 @@ header .logo img {
     justify-content: space-around;
 }
 
+.design{
+    margin-top: 100px;
+    font-size: 40px;
+    width: 250px;
+}
+
 .mensagem{
+    margin-top: 30px;
+    margin-bottom: 30px;
     font-weight: 100;
+    width: 300px;
+    font-size: 20px;
 }
 
 .figura1{
+    margin-top: 100px;
     width: 400px;
     height: 400px;
+    margin-bottom: 200px;
+}
+
+.figura2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 300px;
+    height: 300px;
+}
+
+.planeje{
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: 800;
+    color: #4747D9;
+    width: 500px;
+}
+
+.mensagem2{
+    margin-top: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 100;
+    font-size: 20px;
+    width: 400px;
+}
+
+#container2{
+    background-color: #4747D9;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+.conhecendo{
+    font-size: 16px;
+    
+}
+
+.conheca{
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.mentorias{
+    color: white;
+    width: 470px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.mentores{
+    text-align: center;
+    color: white;
+    width: 230px;
+    margin-bottom: 100px;
+}
+
+.mini{
+    width: 50px;
+    height: 50px;
 }
 
