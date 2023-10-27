@@ -218,3 +218,59 @@ header .logo img {
     height: 50px;
 }
 
+.conte{
+    color: #4747D9;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.foto{
+   display: flex;
+   justify-content: center;
+    
+}
+
+.telas{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    width: 800px;
+    height: 400px;
+}
+
+#containerAvaliacoes{
+    background-color: #4747D9;
+    font-family: 'Poppins', sans-serif;
+}
+
+.estrelas{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 400px;
+}
+
+.avaliacoes{
+    background-color: white;
+    width: 350px;
+    height: 400px;
+    border-radius: 15px;  
+    margin-bottom: 100px; 
+}
+
+.usuarios{
+    color: #4F4FD8;
+    justify-content:space-around ;
+    display: flex;
+    text-align: center;
+}
+
+.usuarios img{
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.stars{
+    display: flex;
+    justify-content: center;
+}
