@@ -252,9 +252,10 @@ header .logo img {
 .avaliacoes{
     background-color: white;
     width: 350px;
-    height: 400px;
+    height: 600px;
     border-radius: 15px;  
     margin-bottom: 100px; 
+    
 }
 
 .usuarios{
@@ -273,4 +274,26 @@ header .logo img {
 .stars{
     display: flex;
     justify-content: center;
+}
+
+.acreditar{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.aval{
+    margin-top: 15px;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-size: 20px;
+}
+
+.lorem{
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.ipsum{
+    color: #797979;
 }
