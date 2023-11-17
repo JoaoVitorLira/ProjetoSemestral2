@@ -17,12 +17,12 @@ img {
 
 /* FIM RESET CSS */
 
-body{
+body {
     background-color: white;
 }
 
 header {
-   
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -127,20 +127,20 @@ header .logo img {
     transform: scale(100) translateX(2px);
 }
 
-#container{
+#container {
     background-color: #CCCFD4;
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: space-around;
 }
 
-.design{
+.design {
     margin-top: 100px;
     font-size: 40px;
     width: 250px;
 }
 
-.mensagem{
+.mensagem {
     margin-top: 30px;
     margin-bottom: 30px;
     font-weight: 100;
@@ -148,21 +148,21 @@ header .logo img {
     font-size: 20px;
 }
 
-.figura1{
+.figura1 {
     margin-top: 100px;
     width: 400px;
     height: 400px;
     margin-bottom: 200px;
 }
 
-.figura2{
+.figura2 {
     margin-top: 100px;
     margin-bottom: 100px;
     width: 300px;
     height: 300px;
 }
 
-.planeje{
+.planeje {
     margin-top: 100px;
     font-size: 30px;
     font-weight: 800;
@@ -170,7 +170,7 @@ header .logo img {
     width: 500px;
 }
 
-.mensagem2{
+.mensagem2 {
     margin-top: 100px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -179,26 +179,26 @@ header .logo img {
     width: 400px;
 }
 
-#container2{
+#container2 {
     background-color: #4747D9;
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: space-around;
 }
 
-.conhecendo{
+.conhecendo {
     font-size: 16px;
-    
+
 }
 
-.conheca{
+.conheca {
     margin-top: 100px;
     color: white;
     text-align: center;
     font-size: 20px;
 }
 
-.mentorias{
+.mentorias {
     color: white;
     width: 470px;
     text-align: center;
@@ -206,94 +206,243 @@ header .logo img {
     margin-bottom: 100px;
 }
 
-.mentores{
+.mentores {
     text-align: center;
     color: white;
     width: 230px;
     margin-bottom: 100px;
 }
 
-.mini{
+.mini {
     width: 50px;
     height: 50px;
 }
 
-.conte{
+.conte {
     color: #4747D9;
     margin-top: 100px;
     text-align: center;
     margin-bottom: 30px;
 }
 
-.foto{
-   display: flex;
-   justify-content: center;
-    
+.foto {
+    display: flex;
+    justify-content: center;
+
 }
 
-.telas{
+.telas {
     margin-top: 30px;
     margin-bottom: 100px;
     width: 800px;
     height: 400px;
 }
 
-#containerAvaliacoes{
+#containerAvaliacoes {
     background-color: #4747D9;
     font-family: 'Poppins', sans-serif;
 }
 
-.estrelas{
+.estrelas {
     margin-top: 100px;
     margin-bottom: 50px;
     width: 400px;
 }
 
-.avaliacoes{
+.avaliacoes {
     background-color: white;
     width: 350px;
     height: 600px;
-    border-radius: 15px;  
-    margin-bottom: 100px; 
-    
+    border-radius: 15px;
+    margin-bottom: 100px;
+
 }
 
-.usuarios{
+.usuarios {
     color: #4F4FD8;
-    justify-content:space-around ;
+    justify-content: space-around;
     display: flex;
     text-align: center;
 }
 
-.usuarios img{
+.usuarios img {
     margin-top: 50px;
     width: 100px;
     height: 100px;
 }
 
-.stars{
+.stars {
     display: flex;
     justify-content: center;
 }
 
-.acreditar{
+.acreditar {
     color: white;
     text-align: center;
     margin-bottom: 20px;
 }
 
-.aval{
+.aval {
     margin-top: 15px;
     margin-left: 90px;
     margin-right: 90px;
     font-size: 20px;
 }
 
-.lorem{
+.lorem {
     font-weight: bold;
     margin-top: 25px;
 }
 
-.ipsum{
+.ipsum {
     color: #797979;
 }
+
+#containerPlanos {
+    background-color: #CCCFD4;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.planos {
+    display: flex;
+    justify-content: center;
+}
+
+.nivel {
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.avatar {
+    width: 110px;
+    height: 110px;
+}
+
+.planos {
+    padding: 50px;
+}
+
+.extra {
+    background-color: white;
+    margin-top: 50px;
+    margin-right: 10px;
+    border-radius: 15px;
+    width: 270px;
+    height: 510px;
+    text-align: center;
+
+}
+
+.pro {
+    color: white;
+    background-color: #4747D9;
+    margin-left: 10px;
+    border-radius: 15px;
+    width: 350px;
+    height:600px ;
+}
+
+.nivel2{
+    margin-top: 20px;
+    width: 130px;
+    height: 60px;
+}
+
+.avatar2{
+    margin-top: 15px;
+    width: 150px;
+    height: 150px;
+}
+
+.containerPlanos,
+h2 {
+    color: #4747D9;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.botaoExtra{
+    background-color: #6E6EFF;
+}
+
+.planos
+button {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    padding-block: 0.5rem;
+    padding-inline: 1.25rem;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    gap: 10px;
+    font-weight: bold;
+    outline: none;
+    overflow: hidden;
+    font-size: 15px;
+    width: 130px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  
+  .planos button:hover {
+    transform: scale(1.15);
+    border-color: #fff9;
+  }
+  
+  .planos button:hover .icon {
+    transform: translate(4px);
+  }
+  
+.planos
+button:hover::before {
+    animation: shine 1.5s ease-out infinite;
+  }
+  
+  .planos button::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background-image: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0) 30%,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0) 70%
+    );
+    top: 0;
+    left: -100px;
+    opacity: 0.6;
+  }
+
+  .extra h3{
+    color: #797979;
+    font-weight: bold;
+    margin: 10px;
+  } 
+
+  .pro h1{
+    color: #eaeaea;
+  }
+
+  .pro h3{
+    margin: 10px;
+  }
+
+  .adiquirir{
+    display: flex;
+    justify-content: center;
+  }
+
+  ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
